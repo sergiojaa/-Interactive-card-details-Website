@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <div class="carts">
+            <img class="back-img" src="images/bg-card-back.png" alt="">
+            <img class="front-img" src="images/bg-card-front.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="info">
+                <h3>Cardholder Name</h3>
+                <input type="text" placeholder="e.g. Jane Appleseed">
+              
+            </div>
+            <div class="card-number">
+                <h3>Card Number</h3>
+                <input type="text" placeholder="e.g. 1234 5678 9123 0000">
+            </div>
+            <div class="date-flex">
+                <div class="month">
+                    <p>Exp. Date</p>
+                    <input type="text" placeholder="MM">
+                </div>
+                <div class="year">
+                    <p>(MM/YY)</p>
+                    <input type="text" placeholder="MM">
+                </div>
+                <div class="cvc">
+                    <p>CVC</p>
+                    <input type="text" placeholder="MM">
+                </div>
+            </div>
+            <div class="confirm-button">
+                <button>CONFIRM</button>
+            </div>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>

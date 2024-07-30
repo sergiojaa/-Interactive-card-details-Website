@@ -12,37 +12,49 @@
 <body>
     <header>
         <div class="carts">
-            <img class="back-img" src="images/bg-card-back.png" alt="">
-            <img class="front-img" src="images/bg-card-front.png" alt="">
+            <div class="back-img">
+                <div class="black-color"></div>
+                <div class="gray" id="gray">000</div>
+            </div>
+            <!-- <img class="back-img" src="images/bg-card-back.png" alt=""> -->
+            <div class="front">
+                <p class="numbers" id="numbers">0000000000000000</p>
+                <div class="both">
+                    <div class="name">dane apelase</div>
+                    <div class="date">00/00</div>
+                </div>
+               
+            </div>
         </div>
+        
     </header>
     <main>
         <section>
             <div class="info">
                 <h3>Cardholder Name</h3>
-                <input type="text" placeholder="e.g. Jane Appleseed">
+                <input type="text" id="cardname" placeholder="e.g. Jane Appleseed">
               
             </div>
             <div class="card-number">
                 <h3>Card Number</h3>
-                <input type="text" placeholder="e.g. 1234 5678 9123 0000">
+                <input type="text" id="cardnumber" placeholder="e.g. 1234 5678 9123 0000">
             </div>
             <div class="date-flex">
                 <div class="month">
                     <p>Exp. Date</p>
-                    <input type="text" placeholder="MM">
+                    <input type="text" id="expdate" placeholder="MM">
                 </div>
                 <div class="year">
                     <p>(MM/YY)</p>
-                    <input type="text" placeholder="MM">
+                    <input type="text" id="monthyear" placeholder="MM">
                 </div>
                 <div class="cvc">
                     <p>CVC</p>
-                    <input type="text" placeholder="MM">
+                    <input type="text" id="cvc" placeholder="MM">
                 </div>
             </div>
             <div class="confirm-button">
-                <button>CONFIRM</button>
+                <button id="confirmButton">CONFIRM</button>
             </div>
         </section>
     </main>

@@ -4,8 +4,79 @@
     padding: 0;
     font-family: "Space Grotesk", sans-serif;
 }
-
-
+.back-img{
+    background-image: url(images/bg-card-back.png);
+    width: 286px;
+    height: 157px;
+    flex-grow: 0;
+    /* margin: 32px 1px 51px 70px; */
+    /* padding: 14.7px 0 62.5px; */
+    border-radius: 6px;
+    border-radius: 10px;
+}
+.both{
+    display: flex;
+    
+    
+}
+.date{
+    margin: 0 0 0 124.1px;
+  font-family: SpaceGrotesk;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.29px;
+  text-align: right;
+  color: #fff;
+}
+.numbers{
+    margin-left: 19px;
+}
+.name{
+    padding-top: 17px;
+    font-family: SpaceGrotesk;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 19px;
+  letter-spacing: 1.29px;
+  text-align: left;
+  color: #fff;
+}
+.black-color{
+    width: 286px;
+  height: 34.6px;
+  flex-grow: 0;
+  margin: 0 0 15.4px;
+  background-color: #2f2f2f;
+}
+.gray{
+    width: 231px;
+  height: 29.7px;
+  flex-grow: 0;
+  margin: 15.4px 26.2px 0 28.8px;
+  padding: 8.9px 10.8px 9.8px 200.2px;
+  border-radius: 4px;
+  background-color: #adb5be;
+  align-items: right;
+}
+.front p {
+    width: 239px;
+  height: 23px;
+  padding: 84.6px 27px 17px 0;
+  font-family: SpaceGrotesk;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2.2px;
+  text-align: left;
+  color: #fff;
+}
+.front{
+    background-image: url(images/bg-card-front.png);
+    width: 285px;
+    height: 157px;
+    margin-top: -100px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
 header{
     
     height: 240px;
@@ -16,7 +87,7 @@ header{
     width: 286px;
   height: 157px;
   flex-grow: 0;
-  margin: 32px 1px 51px 58px;
+  margin: 32px 1px 51px 70px;
   padding: 14.7px 0 62.5px;
   border-radius: 6px;
   background-image: linear-gradient(160deg, #fff -2%, #d2d3d9 66%);

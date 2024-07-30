@@ -1,0 +1,11 @@
+let gray = document.getElementById('gray')
+let numbers = document.getElementById('numbers')
+let name = document.getElementById('name')
+let date = document.getElementById('date')
+let cardname = document.getElementById('cardname')
+let cardnumber = document.getElementById('cardnumber')
+let expdate = document.getElementById('expdate')
+let monthyear = document.getElementById('monthyear')
+let cvc = document.getElementById('cvc')
+let confirmButton = document.getElementById('confirmButton')
+

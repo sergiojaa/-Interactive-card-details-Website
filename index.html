@@ -18,10 +18,13 @@
             </div>
             <!-- <img class="back-img" src="images/bg-card-back.png" alt=""> -->
             <div class="front">
-                <p class="numbers" id="numbers">0000000000000000</p>
+                <p class="numbers" id="numbers"></p>
                 <div class="both">
-                    <div class="name">dane apelase</div>
-                    <div class="date">00/00</div>
+                    <div id="name" class="name"></div>
+                    <div class="date">
+                        <div id="cardmonth"></div> /
+                        <div id="cardyear"></div>
+                    </div>
                 </div>
                
             </div>
@@ -35,9 +38,9 @@
                 <input type="text" id="cardname" placeholder="e.g. Jane Appleseed">
               
             </div>
-            <div class="card-number">
+            <div class="card-number" >
                 <h3>Card Number</h3>
-                <input type="text" id="cardnumber" placeholder="e.g. 1234 5678 9123 0000">
+                <input type="number" id="cardnumber" placeholder="e.g. 1234 5678 9123 0000">
             </div>
             <div class="date-flex">
                 <div class="month">
@@ -46,11 +49,11 @@
                 </div>
                 <div class="year">
                     <p>(MM/YY)</p>
-                    <input type="text" id="monthyear" placeholder="MM">
+                    <input type="text" id="monthyear" placeholder="YY">
                 </div>
                 <div class="cvc">
                     <p>CVC</p>
-                    <input type="text" id="cvc" placeholder="MM">
+                    <input type="text" id="cvc" placeholder="CVC">
                 </div>
             </div>
             <div class="confirm-button">
